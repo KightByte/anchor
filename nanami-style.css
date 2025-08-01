@@ -36,7 +36,7 @@ body {
 
 .side-container img {
   width: 200px;       /* Fixed width */
-  height: 300px;      /* Fixed height */
+  height: 200px;      /* Fixed height */
   object-fit: cover;  /* Crop while keeping proportions */
   border-radius: 8px;
 }
