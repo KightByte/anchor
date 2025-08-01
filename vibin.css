@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.container img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+}
