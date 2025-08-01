@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.flower-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.flower-text {
+  flex: 1;
+  margin-right: 25px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.flower-image {
+  flex-shrink: 0;
+}
+
+.flower-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
