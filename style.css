@@ -12,38 +12,17 @@ body {
   color: black; /* black text by default */
 }
 
-/* Main content box to keep margins (if used) */
+/* Main content box (optional use) */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
-  background-color: rgba(255, 255, 255, 0.9); /* translucent white for readability */
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-/* Centered text styling */
-.centered-text {
-  text-align: center;
-  color: black;
-  margin-top: 40px; /* slight space from top */
-}
-
-/* Bottom-left PNG button */
-.corner-button {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  transform: rotate(-5deg); /* slight tilt left */
-  z-index: 10;
-}
-
-.corner-button img {
-  width: 120px; /* medium size */
-  height: auto;
-  cursor: pointer;
-}
 /* Top-centered image */
 .top-image {
   display: flex;
@@ -55,19 +34,8 @@ body {
   max-width: 80%;
   height: auto;
 }
-.image-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
 
-.main-image {
-  width: 100%;
-  max-width: 1446px;
-  height: auto;
-  display: block;
-}
+/* Button styling */
 .corner-button {
   position: fixed;
   bottom: 20px;
@@ -79,15 +47,14 @@ body {
 .corner-button img {
   width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
-/* Right side button (Nanami) */
+/* Positioning */
+.corner-button.left {
+  left: 20px;
+}
+
 .corner-button.right {
   right: 20px;
 }
-
-/* Left side button (Flower) */
-.corner-button.left {
-  left: 90px;
-}
-
