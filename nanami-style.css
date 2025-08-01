@@ -56,3 +56,15 @@ body {
   width: 30px; /* Adjust size as needed */
   height: auto;
 }
+.earpiece-link {
+  position: fixed;
+  bottom: 80px; /* Slightly above the Yuji doll */
+  right: 20px;
+  z-index: 10; /* Ensure it’s above other elements if overlapping */
+}
+
+.earpiece-link img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
