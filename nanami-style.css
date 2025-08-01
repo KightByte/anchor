@@ -40,22 +40,19 @@ body {
   object-fit: cover;  /* Crop while keeping proportions */
   border-radius: 8px;
 }
-.bottom-right-yuji {
+.bottom-right-doll {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.85); /* optional background */
-  padding: 8px;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+  padding: 5px 10px;
   border-radius: 8px;
-  font-family: sans-serif;
-  font-size: 14px;
-  gap: 8px;
-  z-index: 999;
 }
 
-.bottom-right-yuji img {
-  height: 48px; /* Adjust size as needed */
-  width: auto;
+.bottom-right-doll img {
+  width: 60px; /* Adjust size as needed */
+  height: auto;
 }
