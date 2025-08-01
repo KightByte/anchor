@@ -9,26 +9,21 @@ body {
   background-size: auto; /* keep actual image size */
   background-attachment: scroll;
   font-family: Arial, sans-serif;
-  color: #222;
+  color: white; /* white text by default */
 }
 
-/* Main content box to keep margins */
+/* Main content box to keep margins (if used) */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
   background-color: rgba(255, 255, 255, 0.9); /* translucent white for readability */
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  font-family: Arial, sans-serif;
-}
 
+/* Centered text styling */
 .centered-text {
   text-align: center;
   color: white;
