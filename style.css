@@ -44,3 +44,14 @@ body {
   height: auto;
   cursor: pointer;
 }
+/* Top-centered image */
+.top-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.top-image img {
+  max-width: 80%;
+  height: auto;
+}
