@@ -68,14 +68,3 @@ body {
   height: auto;
   display: block;
 }
-
-.image-hotspot {
-  position: absolute;
-  top: 1198px;
-  left: 50px;
-  width: calc(100% - 100px); /* 50px in from each side */
-  height: 248px; /* from 1198px down to 1446px (bottom of image) */
-  cursor: pointer;
-  z-index: 2;
-}
-
