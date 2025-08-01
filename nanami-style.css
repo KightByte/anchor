@@ -21,11 +21,11 @@ body {
 }
 
 /* Side containers */
-.side-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 200px;
+.side-container img {
+  width: 200px;       /* Fixed width */
+  height: 300px;      /* Fixed height */
+  object-fit: cover;  /* Crop while keeping proportions */
+  border-radius: 8px;
 }
 
 .side-text {
