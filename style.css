@@ -29,3 +29,16 @@ body {
   color: black;
   margin-top: 40px; /* slight space from top */
 }
+.corner-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  transform: rotate(-5deg); /* slight tilt left */
+  z-index: 10;
+}
+
+.corner-button img {
+  width: 120px; /* medium size */
+  height: auto;
+  cursor: pointer;
+}
