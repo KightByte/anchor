@@ -11,6 +11,6 @@ body {
 }
 
 .video-container video {
-  max-width: 90%;
-  max-height: 90vh;
+  max-width: 110%;
+  max-height: 110vh;
 }
