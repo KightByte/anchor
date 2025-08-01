@@ -9,7 +9,7 @@ body {
   background-size: auto; /* keep actual image size */
   background-attachment: scroll;
   font-family: Arial, sans-serif;
-  color: white; /* white text by default */
+  color: black; /* white text by default */
 }
 
 /* Main content box to keep margins (if used) */
