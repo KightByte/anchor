@@ -1,0 +1,12 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #fbeffb;
+  color: #333;
+}
+
+h1 {
+  color: #d63384;
+}
