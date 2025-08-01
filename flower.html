@@ -9,12 +9,27 @@
 <body>
   <div class="flower-container">
     <div class="flower-text">
-      <p>Just kidding! Of course I got you flowers silly. I even made sure they were your favorite. I hope they smell as fresh and sweet as you do. I picked them for you because on a day so special you deserve something soft to cheer your heart up a bit. Today may be special and warrent these petals but please dont be mistaken. Not a day passes where I dont think of you enough to overload computers. If I could make it happen you would recieve something that carrys the
-        same beautiful meaning as these every day sweetie. You deserve nothing less. And even though these hydrangea may die eventually, now that my love for you wont. No matter how much time may pass, or how many hard days may come to challenge us. In my heart and soul I will love you. Forever and always. Happy boyfriend day honey</p>
+      <p>
+        Just kidding! Of course I got you flowers silly. I even made sure they were your favorite. I hope they smell as fresh and sweet as you do. I picked them for you because on a day so special you deserve something soft to cheer your heart up a bit. Today may be special and warrent these petals but please dont be mistaken. Not a day passes where I dont think of you enough to overload computers. If I could make it happen you would recieve something that carrys the same beautiful meaning as these every day sweetie. You deserve nothing less. And even though these hydrangea may die eventually, now that my love for you wont. No matter how much time may pass, or how many hard days may come to challenge us. In my heart and soul I will love you. Forever and always. Happy boyfriend day honey
+        <!-- rest of your message here -->
+      </p>
     </div>
     <div class="flower-image">
-      <img src="flowerboy.png" alt="Flower Boy" />
+      <img src="flowerboy.png" alt="Flower Boy" id="flower-img" />
     </div>
   </div>
+
+  <!-- Hidden audio element -->
+  <audio id="smooch-audio" src="smooch.mp3"></audio>
+
+  <!-- Script to handle the click -->
+  <script>
+    const flowerImg = document.getElementById('flower-img');
+    const smoochAudio = document.getElementById('smooch-audio');
+
+    flowerImg.addEventListener('click', () => {
+      smoochAudio.play();
+    });
+  </script>
 </body>
 </html>
