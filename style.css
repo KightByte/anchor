@@ -26,6 +26,6 @@ body {
 /* Centered text styling */
 .centered-text {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 40px; /* slight space from top */
 }
